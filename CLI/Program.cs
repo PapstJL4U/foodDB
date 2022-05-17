@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//initial CLI
+using System;
+namespace CLI
+{
+    class CLI
+    {
+        public static void Main(string[] args){
+            
+            Console.WriteLine("Done! Thank you!");
+        }
+    }
+}
