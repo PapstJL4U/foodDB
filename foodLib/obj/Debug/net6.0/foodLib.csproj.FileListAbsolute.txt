@@ -1,0 +1,12 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\foodLib.deps.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\foodLib.pdb
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.csproj.AssemblyReference.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.AssemblyInfoInputs.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.AssemblyInfo.cs
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.csproj.CoreCompileInputs.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\refint\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\foodLib.pdb
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\obj\Debug\net6.0\ref\foodLib.dll

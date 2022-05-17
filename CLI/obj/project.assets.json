@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "foodLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/foodLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/foodLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "foodLib/1.0.0": {
+      "type": "project",
+      "path": "../foodLib/foodLib.csproj",
+      "msbuildProject": "../foodLib/foodLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "foodLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Johannes.Lieberodt\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj": {
+              "projectPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
