@@ -33,7 +33,7 @@ public static class foodLib
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {
-            if(entry.Contains(Name))
+            if(entry.Contains(Name.ToLower()))
             {
                 Liste.Add(entry);
             }
@@ -46,10 +46,59 @@ public static class foodLib
         foreach(var entry in _Rezepte.Keys)
         {
             List<string> Zutaten = _Rezepte[entry];
-            if(Zutaten.Contains(Zutat))
+            if(Zutaten.Contains(Zutat.ToLower()))
             {
                 Liste.Add(entry);
             }
+        }
+        return Liste;
+    }
+
+    public static List<string> RezeptZutatOR(string[] Zutat){
+        List<string> Liste = new List<string>();
+        foreach(var entry in _Rezepte.Keys)
+        {   
+            List<string> Zutaten = _Rezepte[entry];
+            foreach(var z in Zutat)
+            {  
+                if(Zutaten.Contains(z.ToLower()))
+                {   
+                    if(!Liste.Contains(entry))
+                    {
+                        Liste.Add(entry);
+                    }
+                }
+            }
+            
+        }
+        return Liste;
+    }
+
+    public static List<string> RezeptZutatAND(string[] Zutat){
+        List<string> Liste = new List<string>();
+        foreach(var entry in _Rezepte.Keys)
+        {   
+            List<string> Zutaten = _Rezepte[entry];
+            bool nicht_vorhanden = false;
+            foreach(var z in Zutat)
+            {   
+                if(nicht_vorhanden == false)
+                {
+                    if(Zutaten.Contains(z))
+                    {   
+                        if(!Liste.Contains(entry))
+                        {
+                            Liste.Add(entry);
+                        }
+                    }
+                    else
+                    {   
+                        Liste.Remove(entry);
+                        nicht_vorhanden = true;
+                    }
+                }
+            }
+            
         }
         return Liste;
     }
