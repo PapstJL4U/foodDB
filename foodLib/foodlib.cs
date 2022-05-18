@@ -12,6 +12,11 @@ public static class foodLib
         return _Rezepte;
     }
 
+    public static int Size()
+    {
+        return _Rezepte.Count;
+    }
+
     public static void FileReader()
     {
         using(StreamReader SR = File.OpenText(path))
@@ -74,7 +79,8 @@ public static class foodLib
         return Liste;
     }
 
-    public static List<string> RezeptZutatAND(string[] Zutat){
+    public static List<string> RezeptZutatAND(string[] Zutat)
+    {
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {   
@@ -101,5 +107,13 @@ public static class foodLib
             
         }
         return Liste;
+    }
+
+    public static String RNGRezept()
+    {
+        Random rng = new Random();
+        int rng_choice = rng.Next(0,_Rezepte.Count());
+        List<string> list = _Rezepte.Keys.ToList();
+        return list[rng_choice];
     }
 }
