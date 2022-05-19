@@ -9,14 +9,15 @@ namespace CLI
             foodLib.foodLib.FileReader();
 
             CLInput();
-
             Console.WriteLine("Thank you!");
+            
         }
 
         private static void CLInput()
         {   
             Console.Write("Zutat oder Zutaten?:");
-            string[] input = Console.ReadLine().Split(",");
+            //string[] input = Console.ReadLine().Split(",");
+            string[] input = new string[]{"zwiebel", "hackfleisch"}; 
             for(int i=0; i<input.Length-1; i++)
             {
                 input[i] = input[i].TrimStart().TrimEnd();
