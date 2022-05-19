@@ -35,6 +35,7 @@ public static class foodLib
     }
 
     public static List<string> RezeptName(string Name){
+        //gibt liste an Rezeptnamen zurück, deren Rezeptname den namen als teil enthält
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {
@@ -47,6 +48,7 @@ public static class foodLib
     }
 
     public static List<string> RezeptZutat(string Zutat){
+        //gibt eine Liste an Rezeptnamen zurück, deren Rezeptzutat "Zutat" enthält
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {
@@ -60,6 +62,7 @@ public static class foodLib
     }
 
     public static List<string> RezeptZutatOR(string[] Zutat){
+        //gibt eine Liste an Rezeptnamen zurück, deren Rezeptzutat eine Zutat aus der Liste enthält
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {   
@@ -80,7 +83,8 @@ public static class foodLib
     }
 
     public static List<string> RezeptZutatAND(string[] Zutat)
-    {
+    {   
+        //gibt eine Liste an Rezeptnamen zurück, deren Rezeptzutat alle Zutaten aus der Liste enthält
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {   

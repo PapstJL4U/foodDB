@@ -36,8 +36,47 @@ namespace CLI
                 Console.WriteLine("Well done.");
             }
             else
-            {
-                //TODO
+            {   
+                List<string> rezept = foodLib.foodLib.RezeptName(input[0].ToLower());
+                if(rezept.Count>0)
+                {
+                    foreach(var name in rezept)
+                    {
+                        Console.WriteLine($"{name}");
+                    }
+                }
+                else
+                {   
+                    List<string> rez = new List<string>();
+
+                    if(input.Length==1)
+                    {
+                        rez = foodLib.foodLib.RezeptZutat(input[0]);
+                    }
+                    else
+                    {
+                        Console.Write("[X]or or [A]nd:");
+                        string Zinput = Console.ReadLine();
+                              
+                        if(Zinput.ToLower()=="x")
+                        {
+                            rez = foodLib.foodLib.RezeptZutatOR(input);
+                        }
+                        else if(Zinput.ToLower()=="a")
+                        {
+                            rez = foodLib.foodLib.RezeptZutatAND(input);
+                        }
+
+                    }
+
+                    Console.WriteLine("Rezept(e):");
+                    foreach(var entry in rez)
+                    {
+                        Console.WriteLine($"{entry}");
+                    }
+
+                    CLInput();
+                }
 
                 
             }
