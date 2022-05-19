@@ -1,6 +1,4 @@
 ﻿//initial CLI
-using System;
-using foodLib;
 namespace CLI
 {
     class CLI
@@ -15,9 +13,9 @@ namespace CLI
 
         private static void CLInput()
         {   
-            Console.Write("Zutat oder Zutaten?:");
-            //string[] input = Console.ReadLine().Split(",");
-            string[] input = new string[]{"zwiebel", "hackfleisch"}; 
+            Console.WriteLine("Zutat oder Zutaten?:");
+            string[] input = Console.ReadLine().Split(",");
+            //string[] input = new string[]{"zwiebel", "hackfleisch"}; 
             for(int i=0; i<input.Length-1; i++)
             {
                 input[i] = input[i].TrimStart().TrimEnd();
@@ -43,7 +41,10 @@ namespace CLI
                 {
                     foreach(var name in rezept)
                     {
-                        Console.WriteLine($"{name}");
+                        Console.Write($"{name}: "); 
+                        foreach(var z in foodLib.foodLib.Rezepte()[name])
+                            Console.Write($"{z},");
+                        Console.WriteLine("");
                     }
                 }
                 else
@@ -76,9 +77,9 @@ namespace CLI
                         Console.WriteLine($"{entry}");
                     }
 
-                    CLInput();
                 }
-
+                
+                CLInput();
                 
             }
         }
