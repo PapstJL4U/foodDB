@@ -1,0 +1,5 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0\GUI.csproj.AssemblyReference.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0\GUI.AssemblyInfoInputs.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0\GUI.AssemblyInfo.cs
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0\GUI.csproj.CoreCompileInputs.cache

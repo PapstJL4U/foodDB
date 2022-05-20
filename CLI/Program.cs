@@ -1,4 +1,5 @@
 ﻿//initial CLI
+using System;
 namespace CLI
 {
     class CLI

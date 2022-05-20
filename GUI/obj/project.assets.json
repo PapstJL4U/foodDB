@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "foodLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/foodLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/foodLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "foodLib/1.0.0": {
+      "type": "project",
+      "path": "../foodLib/foodLib.csproj",
+      "msbuildProject": "../foodLib/foodLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "foodLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Johannes.Lieberodt\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\GUI\\GUI.csproj",
+      "projectName": "GUI",
+      "projectPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\Johannes.Lieberodt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\GUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Johannes.Lieberodt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj": {
+              "projectPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
