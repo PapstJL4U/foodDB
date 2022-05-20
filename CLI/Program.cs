@@ -10,7 +10,17 @@ namespace CLI
             Console.WriteLine("Thank you!");
             
         }
-
+        private static void WriteAll(List<string> rezeptnamelist)
+        {   
+            Console.WriteLine("Rezepte:");
+            foreach(var name in rezeptnamelist)
+                    {
+                        Console.Write($"{name}: "); 
+                        foreach(var z in foodLib.foodLib.Rezepte()[name])
+                            Console.Write($"{z},");
+                        Console.WriteLine("");
+                    }
+        }
         private static void CLInput()
         {   
             Console.WriteLine("Zutat oder Zutaten(,)?:");
@@ -39,13 +49,7 @@ namespace CLI
                 List<string> rezept = foodLib.foodLib.RezeptName(input[0].ToLower());
                 if(rezept.Count>0)
                 {
-                    foreach(var name in rezept)
-                    {
-                        Console.Write($"{name}: "); 
-                        foreach(var z in foodLib.foodLib.Rezepte()[name])
-                            Console.Write($"{z},");
-                        Console.WriteLine("");
-                    }
+                    WriteAll(rezept);
                 }
                 else
                 {   
@@ -71,11 +75,7 @@ namespace CLI
 
                     }
 
-                    Console.WriteLine("Rezept(e):");
-                    foreach(var entry in rez)
-                    {
-                        Console.WriteLine($"{entry}");
-                    }
+                    WriteAll(rez);
 
                 }
                 
@@ -83,5 +83,7 @@ namespace CLI
                 
             }
         }
+
+        
     }
 }

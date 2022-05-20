@@ -52,7 +52,7 @@ public static class foodLib
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {
-            FoodList<string> Zutaten = (FoodList<string>)_Rezepte[entry];
+            FoodList Zutaten = new FoodList(_Rezepte[entry]);
             if(Zutaten.Contains(Zutat.ToLower()))
             {
                 Liste.Add(entry);
@@ -66,7 +66,7 @@ public static class foodLib
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {   
-            List<string> Zutaten = _Rezepte[entry];
+            FoodList Zutaten = new FoodList(_Rezepte[entry]);
             foreach(var z in Zutat)
             {  
                 if(Zutaten.Contains(z.ToLower()))
@@ -88,7 +88,7 @@ public static class foodLib
         List<string> Liste = new List<string>();
         foreach(var entry in _Rezepte.Keys)
         {   
-            List<string> Zutaten = _Rezepte[entry];
+            FoodList Zutaten = new FoodList(_Rezepte[entry]);
             bool nicht_vorhanden = false;
             foreach(var z in Zutat)
             {   
@@ -122,37 +122,3 @@ public static class foodLib
     }
 
 }
-//class, that acts like a list except for special "contain method"
-/*
-    contains should return true if asked for "käse" and the list contains "mozzarella" or "gouda", and in reverse
-    more rules to come
-*/
-    internal class FoodList<T> : List<string>
-    {   
-        public bool Contains(string element)
-        {
-
-                switch(element)
-                {
-                    case "zwiebeln":
-                        return base.Contains("zwiebel");
-                    case "käse":
-                    case "gouda":
-                    case "mozarella":
-                        return cheese();
-                    default:
-                        return base.Contains(element);
-                }
-        }
-
-        private bool cheese(){
-            if(base.Contains("käse")||base.Contains("gouda")||base.Contains("mozarella"))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-    }
