@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Windows.Window;
+using System.Windows;
 namespace guiapp
 {
   public partial class GUI : Window
