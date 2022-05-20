@@ -13,10 +13,10 @@ namespace CLI
 
         private static void CLInput()
         {   
-            Console.WriteLine("Zutat oder Zutaten?:");
+            Console.WriteLine("Zutat oder Zutaten(,)?:");
             string[] input = Console.ReadLine().Split(",");
             //string[] input = new string[]{"zwiebel", "hackfleisch"}; 
-            for(int i=0; i<input.Length-1; i++)
+            for(int i=0; i<input.Length; i++)
             {
                 input[i] = input[i].TrimStart().TrimEnd();
             }
