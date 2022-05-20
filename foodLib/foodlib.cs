@@ -13,12 +13,12 @@ public static class foodLib
     }
 
     public static int Size()
-    {
+    {//anzahl an rezepten
         return _Rezepte.Count;
     }
 
     public static void FileReader()
-    {
+    {//list .tsv von rezepten und zutaten
         using(StreamReader SR = File.OpenText(path))
         {
             string line;
@@ -114,7 +114,7 @@ public static class foodLib
     }
 
     public static String RNGRezept()
-    {
+    {//zufälliges rezept als rückgabe
         Random rng = new Random();
         int rng_choice = rng.Next(0,_Rezepte.Count());
         List<string> list = _Rezepte.Keys.ToList();
