@@ -5,6 +5,10 @@
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
+# publishing
+*/bin/Debug/net6.0/publish/*
+*/obj/Debug/net6.0/publish/*
+
 # Local History for Visual Studio Code
 .history/
 
