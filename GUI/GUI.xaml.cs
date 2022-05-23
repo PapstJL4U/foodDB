@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Windows;
-namespace guiapp
+namespace Foood
 {
-  public partial class GUI : Window
+  public partial class GUI : ContentPage
   {
     public GUI()
     {
       InitializeComponent();
+      OnClear(this, null);
     }
   }
 }

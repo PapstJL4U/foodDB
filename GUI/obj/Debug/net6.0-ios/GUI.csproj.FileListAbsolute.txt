@@ -1,0 +1,13 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\actool\_PartialAppManifest.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\_ProcessedContentPath.items
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\GUI.csproj.AssemblyReference.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\GUI.AssemblyInfoInputs.cache
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\GUI.AssemblyInfo.cs
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\obj\Debug\net6.0-ios\GUI.csproj.CoreCompileInputs.cache

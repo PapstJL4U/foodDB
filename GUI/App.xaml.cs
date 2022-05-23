@@ -1,6 +1,6 @@
 
 using System.Windows;
-namespace guiapp
+namespace Foood
 {
   public partial class App : Application
   {

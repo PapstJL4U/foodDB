@@ -1,0 +1,22 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.19041.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Foood
+build_property.ProjectDir = C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\GUI\
+
+[C:/Users/Johannes.Lieberodt/Documents/Share/foodDB/GUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foood.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Johannes.Lieberodt/Documents/Share/foodDB/GUI/GUI.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Foood.GUI.xaml
+build_metadata.AdditionalFiles.TargetPath = GUI.xaml
+build_metadata.AdditionalFiles.RelativePath = GUI.xaml
