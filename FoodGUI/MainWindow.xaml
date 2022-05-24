@@ -18,7 +18,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
-        <Label Grid.Column="1">Rezept- und Rezeptnamensuche</Label>
+        <Label Grid.Column="1">Essenszutat- und Essensnamenssuche</Label>
         <Label Grid.Column="0">Ergebnisse</Label>
         <ListBox Grid.Row="1" x:Name="Ausgabe" />
 
