@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FoodGUI/1.0.0": {
+        "dependencies": {
+          "foodLib": "1.0.0"
+        },
+        "runtime": {
+          "FoodGUI.dll": {}
+        }
+      },
+      "foodLib/1.0.0": {
+        "runtime": {
+          "foodLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FoodGUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "foodLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

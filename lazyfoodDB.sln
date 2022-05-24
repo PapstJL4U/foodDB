@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI", "CLI\CLI.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "foodLib", "foodLib\foodLib.csproj", "{4DD79150-E691-40C2-80F6-751C8DA5888F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{C2002611-F400-4972-9168-62C806FB709F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodGUI", "FoodGUI\FoodGUI.csproj", "{12CE89A5-850E-4350-A7ED-41FCC40FBD7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,9 @@ Global
 		{C2002611-F400-4972-9168-62C806FB709F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2002611-F400-4972-9168-62C806FB709F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2002611-F400-4972-9168-62C806FB709F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CE89A5-850E-4350-A7ED-41FCC40FBD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CE89A5-850E-4350-A7ED-41FCC40FBD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CE89A5-850E-4350-A7ED-41FCC40FBD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CE89A5-850E-4350-A7ED-41FCC40FBD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

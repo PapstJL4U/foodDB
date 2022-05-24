@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj",
+      "projectUniqueName": "c:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj",
       "projectName": "foodLib",
-      "projectPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj",
+      "projectPath": "c:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\foodLib.csproj",
       "packagesPath": "C:\\Users\\Johannes.Lieberodt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\obj\\",
+      "outputPath": "c:\\Users\\Johannes.Lieberodt\\Documents\\Share\\foodDB\\foodLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Johannes.Lieberodt\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,30 @@
+﻿<Window x:Class="FoodGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodGUI"
+        mc:Ignorable="d"
+        Title="Food Library" Height="450" Width="800">
+    <Grid Margin="10">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Column="1">Rezept- und Rezeptnamensuche</Label>
+        <Label Grid.Column="0">Ergebnisse</Label>
+        <ListBox Grid.Row="1" x:Name="Ausgabe" />
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
+            <TextBox x:Name="txtSuche"/>
+            <Button x:Name="btnSuche" Margin="0,5,0,0" Click="ButtonSuche_Click">Hunger aber Planlos!</Button>
+        </StackPanel>
+    </Grid>
+</Window>
