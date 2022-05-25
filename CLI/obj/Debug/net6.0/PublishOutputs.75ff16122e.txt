@@ -1,0 +1,7 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\CLI.exe
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\CLI.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\CLI.deps.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\CLI.runtimeconfig.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\CLI.pdb
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\CLI\bin\Debug\net6.0\publish\foodLib.pdb

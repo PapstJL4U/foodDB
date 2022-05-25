@@ -1,20 +1,20 @@
 ﻿FoodGUI
-1.0.0.0
+
 
 winexe
 C#
 .cs
-c:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\obj\Debug\net6.0-windows\
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\obj\Debug\net6.0-windows\
 FoodGUI
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-c:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\App.xaml
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\App.xaml
 11407045341
 
-5-1509361822
-195-1827084648
+3-1233169557
+195-679121162
 MainWindow.xaml;
 
-True
+False
 

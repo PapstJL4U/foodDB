@@ -1,0 +1,7 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\FoodGUI.exe
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\FoodGUI.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\FoodGUI.deps.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\FoodGUI.runtimeconfig.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\FoodGUI.pdb
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\FoodGUI\bin\Debug\net6.0-windows\publish\foodLib.pdb

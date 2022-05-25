@@ -1,0 +1,3 @@
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\publish\foodLib.dll
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\publish\foodLib.deps.json
+C:\Users\Johannes.Lieberodt\Documents\Share\foodDB\foodLib\bin\Debug\net6.0\publish\foodLib.pdb

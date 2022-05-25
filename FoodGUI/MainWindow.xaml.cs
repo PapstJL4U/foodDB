@@ -31,25 +31,39 @@ namespace FoodGUI
         {
             if (!string.IsNullOrWhiteSpace(txtSuche.Text))
             {   
+                //raw input string
                 string suche = $"{txtSuche.Text}";
+                //seperate the input into individual terms
                 string[] input = suche.Split(",");
+                //does a food need all or only one ingredients?
+                bool or = btOr.IsChecked==true;
+                
+                List<string> antwort = new List<string>();
+                
                 for(int i=0; i<input.Length; i++)
                 {//no whitespace!
                     input[i] = input[i].TrimStart().TrimEnd();
                 }
+
                 if(input.Count()==1)
                 {
-                    List<string> antwort = Click_on_Single(input[0]);
+                    antwort = Click_on_Single(input[0]);
+                }
+                else
+                {
+                    if(or)
+                    {
+                        antwort = Food.RezeptZutatOR(input);
+                    }
+                    else
+                    {
+                        antwort = Food.RezeptZutatAND(input);
+                    }
+                    
                 }
 
-
-
-
-
                 //AUSGABE ENDE
-                Ausgabe.Items.Add($"==Suche für: {suche}==");
-                Ausgabe.Items.Add(txtSuche.Text);
-                //txtSuche.Clear();
+                Mausgabe(suche, antwort);
             }
             else
             {   
@@ -72,9 +86,16 @@ namespace FoodGUI
         private void Mausgabe(string eingabe, List<string> antwort)
         {
             Ausgabe.Items.Add($"==Suche für: {eingabe}==");
-            foreach(string s in antwort)
-            {
-                Ausgabe.Items.Add(Food.Rezepte()[s]);
+            foreach(string name in antwort)
+            {   
+                string zutaten = "";
+                foreach(var v in Food.Rezepte()[name])
+                {
+                    zutaten = zutaten + " ";
+                    zutaten = zutaten + v;
+                }
+
+                Ausgabe.Items.Add(name+": "+zutaten.Trim());
             }
         }
 
