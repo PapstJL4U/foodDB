@@ -24,7 +24,12 @@ namespace FoodGUI
         public MainWindow()
         {
             InitializeComponent();
-            Food.FileReader();
+            bool file_loaded = Food.FileReader();
+            if(!file_loaded)
+            {
+                MessageBox.Show("Error! 'food.tsv' not found. Please provide file in the same folder as the FoodGUI.exe");
+                FileNotFound();
+            }
         }
 
         private void ButtonSuche_Click(object sender, RoutedEventArgs e)
@@ -99,5 +104,10 @@ namespace FoodGUI
             }
         }
 
+        private void FileNotFound()
+        {
+            btnSuche.IsEnabled=false;
+            btnSuche.Content="food.tsv not found :(";
+        }
     }
 }

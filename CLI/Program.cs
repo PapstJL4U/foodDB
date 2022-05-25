@@ -5,9 +5,16 @@ namespace CLI
     class CLI
     {
         public static void Main(string[] args){
-            foodLib.foodLib.FileReader();
+            bool file_loaded = foodLib.foodLib.FileReader();
+            if(file_loaded)
+            {
             CLInput();
             Console.WriteLine("Thank you!");
+            }
+            else
+            {
+                Console.WriteLine("Please provide file in the same folder as the CLI.exe");
+            }
             
         }
         private static void WriteAll(List<string> rezeptnamelist)

@@ -17,8 +17,10 @@ public static class foodLib
         return _Rezepte.Count;
     }
 
-    public static void FileReader()
+    public static bool FileReader()
     {//list .tsv von rezepten und zutaten
+        try{
+
         using(StreamReader SR = File.OpenText(path))
         {
             string line;
@@ -31,6 +33,18 @@ public static class foodLib
 
                 _Rezepte.Add(key, value);
             }
+        }
+        return true;
+        }
+        catch(FileNotFoundException e)
+        {
+            Console.WriteLine("food.tsv not found.");
+            return false;
+        }
+        catch(Exception e)
+        {
+            Console.WriteLine(e);
+            return false;
         }
     }
 

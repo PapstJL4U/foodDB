@@ -23,7 +23,7 @@
         <ListBox Grid.Row="1" x:Name="Ausgabe" />
 
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
-            <TextBox x:Name="txtSuche"/>
+            <TextBox ToolTip="Mehrere Suchbegriffe mit Komma trennen." x:Name="txtSuche"/>
             <Button x:Name="btnSuche" Margin="0,5,0,0" Click="ButtonSuche_Click">Hunger aber Planlos!</Button>
             <RadioButton IsChecked="True" x:Name="btOr">min. eine Zutat zutreffend</RadioButton>
 		    <RadioButton x:Name="btAll">alle Zutaten zutreffend</RadioButton>
