@@ -16,6 +16,8 @@ namespace foodLib;
                 {
                     case "zwiebeln":
                         return base.Contains("zwiebel");
+                    case "tomaten":
+                        return base.Contains("tomate");
                     case "käse":
                     case "gouda":
                     case "mozarella":

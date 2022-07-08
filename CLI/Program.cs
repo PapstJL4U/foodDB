@@ -42,7 +42,6 @@ namespace CLI
             
             if(input[0].ToLower()=="rng" || input[0]=="")
             {//für die lustlosen das zufällige rezept
-               
                 var rez = foodLib.foodLib.RNGRezept();
                 Console.WriteLine($"You got:{rez}");
                 Console.WriteLine("==========================");
@@ -73,7 +72,7 @@ namespace CLI
                     {
                         Console.Write("[O]r xor [A]nd:");
                         string Zinput = Console.ReadLine();
-                              
+                        
                         if(Zinput.ToLower()=="o")
                         {
                             rez = foodLib.foodLib.RezeptZutatOR(input);
